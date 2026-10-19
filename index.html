@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#05070c">
+  <meta name="description" content="Umar Alam — media personality, radio broadcaster, entrepreneur and digital creator.">
+  <title>Umar Alam | Enter the World</title>
+  <style>
+    :root{color-scheme:dark;--ink:#f8f7f4;--muted:#d0d0d7;--blue:#28bfff;--red:#ff334b}
+    *{box-sizing:border-box}
+    html{min-height:100%;background:#05070c}
+    body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 20% 20%,rgba(0,102,255,.12),transparent 45%),radial-gradient(ellipse at 85% 25%,rgba(255,0,45,.10),transparent 42%),#05070c;color:var(--ink);font-family:Arial,Helvetica,sans-serif;display:flex;align-items:center;justify-content:center}
+    .landing{width:min(100%,1600px);margin:0 auto;padding:clamp(12px,2vw,28px);text-align:center}
+    .hero-image{display:block;width:100%;height:auto;max-height:72vh;object-fit:contain;object-position:center;margin:0 auto}
+    .intro{padding:15px 12px 24px;background:linear-gradient(180deg,rgba(0,0,0,.86),rgba(0,0,0,.98));margin-top:-1px}
+    .roles{margin:0 auto 18px;color:var(--muted);font-size:clamp(10px,1vw,13px);letter-spacing:.16em;line-height:1.9}
+    .roles span{padding:0 .45em;white-space:nowrap}
+    .enter{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:44px;padding:0 clamp(20px,3vw,44px);border:1px solid transparent;border-radius:999px;background:linear-gradient(#07080d,#07080d) padding-box,linear-gradient(100deg,var(--blue),#a55cff 48%,var(--red)) border-box;box-shadow:0 0 13px rgba(35,160,255,.22),0 0 18px rgba(255,40,65,.18);color:#fff;text-decoration:none;font-size:12px;letter-spacing:.17em;transition:box-shadow .2s ease,transform .2s ease}
+    .enter:hover,.enter:focus-visible{box-shadow:0 0 20px rgba(35,160,255,.4),0 0 24px rgba(255,40,65,.3);transform:translateY(-1px);outline:none}
+    .arrow{font-size:18px;line-height:1}
+    .mobile-image{display:none}
+    @media(max-width:700px){body{align-items:flex-start}.landing{padding:0;width:100%;max-width:480px}.desktop-image{display:none}.mobile-image{display:block;width:100%;height:auto;object-fit:contain}.intro{padding:18px 14px 30px}.roles{max-width:330px;margin-bottom:17px;font-size:10px;letter-spacing:.12em;line-height:1.9}.roles span{padding:0 .25em}.enter{width:min(100%,320px);min-height:43px;font-size:10px;letter-spacing:.13em}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important}}
+  </style>
+</head>
+<body>
+  <main class="landing" aria-label="Umar Alam landing page">
+    <img class="hero-image desktop-image" src="assets/landing-desktop.png" alt="Umar Alam writing at his desk in a blue and red neon studio">
+    <img class="hero-image mobile-image" src="assets/landing-mobile.png" alt="Umar Alam in his neon studio, composed for a mobile screen">
+    <section class="intro" aria-label="Introduction">
+      <p class="roles"><span>Media Personality</span> | <span>Radio Broadcaster</span> | <span>Entrepreneur</span> | <span>Digital Creator</span></p>
+      <a class="enter" href="about.html"><span>ENTER THE WORLD OF UMAR</span><span class="arrow" aria-hidden="true">→</span></a>
+    </section>
+  </main>
+</body>
+</html>
